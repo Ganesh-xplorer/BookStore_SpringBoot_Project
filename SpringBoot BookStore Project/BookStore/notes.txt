@@ -1,0 +1,3 @@
+@Id – Marks the field as the primary key of the entity.
+@GeneratedValue(strategy = GenerationType.IDENTITY) – Specifies that the database will automatically generate the primary key.
+GenerationType.IDENTITY tells the database to handle the auto-increment of the primary key.
